@@ -1,0 +1,18 @@
+[project]
+name = "dgc"
+version = "0.1.0"
+description = "good website for you family"
+authors = [
+    {name = "German Luter"}
+]
+license = {text = "Yes"}
+readme = "README.md"
+requires-python = "3.9.13"
+dependencies = [
+    "django (==3.1.2)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
